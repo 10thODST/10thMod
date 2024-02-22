@@ -1,60 +1,29 @@
-name = "10th Armor Mod"
-prefix = "Tenthed"
+name = "10thmod"
 author = "Akira"
+prefix = "Tenthed"
 mainprefix = "z"
 
 [files]
 include = [
-    "*.dll",
-    "*.so",
     "mod.cpp",
-    "README*.md",  # Translated READMEs get moved to root in a hook (virtual file system)
-    "AUTHORS.txt",
-    "LICENSE",
-    "logo_ace3_ca.paa",
-    "meta.cpp",
+    "logo.paa",
+    "logo.png",
+    "meta.cpp"
 ]
 
 [version]
-git_hash = 0
+#path = "addons/core/script_version.hpp" # Default
 
-[hemtt.config]
-preset = "Hemtt"
+major = 1 # Overrides path when set
+minor = 0
+patch = 4
+build = 3 # Optional
 
-[hemtt.launch]
-workshop = [
-    "450814997", # CBA_A3
-]
+git_hash = 0 # Default: 8
 
-[hemtt.launch.spe]
-workshop = [
-    "450814997", # CBA_A3
-]
-dlc = [
-    "spe"
-]
+[hemtt.build]
+optional_mod_folders = false # Default: true
 
-[hemtt.launch.vn]
-workshop = [
-    "450814997", # CBA_A3's Workshop ID
-]
-dlc = [
-    "S.O.G. Prairie Fire",
-]
-
-[hemtt.launch.ws]
-workshop = [
-    "450814997", # CBA_A3's Workshop ID
-]
-dlc = [
-    "Western Sahara",
-]
-
-[hemtt.launch.rhs]
-workshop = [
-    "450814997", # CBA_A3's Workshop ID
-    "843425103", # RHS AFRF Workshop ID
-    "843577117", # RHS USAF Workshop ID
-    "843593391", # RHS GREF Workshop ID
-    "843632231", # RHS SAF  Workshop ID
-]
+[hemtt.release]
+sign = true # Default: true
+archive = false # Default: true

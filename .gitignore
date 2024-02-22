@@ -25,3 +25,9 @@ CHANGELOG.md
 sqfvm.exe
 ArmaScriptCompiler.exe
 *.sqfc
+
+*.pbo
+.hemttout
+hemtt
+hemtt.exe
+*.biprivatekey
