@@ -21,7 +21,7 @@ class cfgWeapons {
 	// Kodiak
 	class SCT_10th_Kodiak_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		displayName = "[10th] CH252D 'Kodiak'";
 		author = "Article 2 Studios";
 		picture = "\OPTRE_UNSC_Units\Army\icons\odst_helmet.paa";
@@ -156,7 +156,7 @@ class cfgWeapons {
 	// Altered
 	class SCT_10th_Altered_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Altered'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -189,7 +189,7 @@ class cfgWeapons {
 	// Chop
 	class SCT_10th_Chop_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Chop'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -255,7 +255,7 @@ class cfgWeapons {
 	// Dave
 	class SCT_10th_Dave_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Dave'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -386,7 +386,7 @@ class cfgWeapons {
 	// Trojan
 	class SCT_10th_Trojan_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Trojan'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -452,7 +452,7 @@ class cfgWeapons {
 	// Teal
 	class SCT_10th_Teal_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Teal'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -618,7 +618,7 @@ class cfgWeapons {
 	// Thor
 	class SCT_10th_Thor_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Thor'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -655,7 +655,7 @@ class cfgWeapons {
 	// Baer
 	class SCT_10th_Baer_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Baer'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -766,7 +766,7 @@ class cfgWeapons {
 	// Iceman
 	class SCT_10th_Iceman_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Iceman'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -803,7 +803,7 @@ class cfgWeapons {
 	// Havoc
 	class SCT_10th_Havoc_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Havoc'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -950,7 +950,7 @@ class cfgWeapons {
 	// Splash
 	class SCT_10th_Splash_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak,Crow";
 		displayName = "[10th] CH252D 'Splash'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -1072,8 +1072,8 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"Tenthed_Helmets_Named\data\crowshelmet.paa",
-			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+			"Helmets_Named\data\crowshelmet.paa",
+			"Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};
@@ -1239,7 +1239,7 @@ class cfgWeapons {
 	// Lego
 	class SCT_10th_Lego_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] Pilot 'Lego'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -1279,7 +1279,7 @@ class cfgWeapons {
 	// Goof
 	class SCT_10th_Goof_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Goof'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -1390,7 +1390,7 @@ class cfgWeapons {
 	// Jogn
 	class SCT_10th_Jogn_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'BoomStick'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -1501,7 +1501,7 @@ class cfgWeapons {
 	// Jad
 	class SCT_10th_Jad_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Jad'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -1813,7 +1813,7 @@ class cfgWeapons {
 	// Arctic
 	class SCT_10th_Arctic_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Sawah";
 		displayName = "[10th] CH252D 'Arctic'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -1846,7 +1846,7 @@ class cfgWeapons {
 	// Sound
 	class SCT_10th_Sound_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Sawah";
 		displayName = "[10th] Pilot 'Sound'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -2011,7 +2011,7 @@ class cfgWeapons {
 	// BlindWolf
 	class SCT_10th_BlindWolf_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Nox";
 		displayName = "[10th] CH252D 'BlindWolf'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -2203,7 +2203,7 @@ class cfgWeapons {
 	// Bob
 	class SCT_10th_Bob_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Tiny";
 		displayName = "[10th] CH252D 'Bob'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -2267,7 +2267,7 @@ class cfgWeapons {
 	// Goji
 	class SCT_10th_Goji_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Mac";
 		displayName = "[10th] CH252D 'Goji'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
@@ -2533,8 +2533,8 @@ class cfgWeapons {
 			"camo2"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Helmets_Named\data\Princess_Helment.paa",
-			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+			"Helmets_Named\data\Princess_Helment.paa",
+			"Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};
