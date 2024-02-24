@@ -140,7 +140,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Lego_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Kodiak, Crow";
 		displayName = "[10th] M52B 'Lego'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -212,7 +212,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Goof_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Crow";
 		displayName = "[10th] M52D 'Goof'";
 		hiddenSelectionsTextures[] = {
@@ -299,7 +299,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Kodiak_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Kodiak'";
 		hiddenSelectionsTextures[] = {
@@ -336,7 +336,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Altered_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Altered'";
 		hiddenSelectionsTextures[] = {
@@ -385,7 +385,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Dave_Armor : Tenthed_Sniper_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Dave'";
 		hiddenSelectionsTextures[] = {
@@ -459,7 +459,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Thor_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Thor'";
 		hiddenSelectionsTextures[] = {
@@ -495,7 +495,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Baer_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Baer'";
 		hiddenSelectionsTextures[] = {
@@ -531,7 +531,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Iceman_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Iceman'";
 		hiddenSelectionsTextures[] = {
@@ -543,7 +543,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Havoc_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Havoc'";
 		hiddenSelectionsTextures[] = {
@@ -603,7 +603,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Splash_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak,Crow";
 		displayName = "[10th] M52D 'Spash'";
 		hiddenSelectionsTextures[] = {
@@ -651,7 +651,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Arctic_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Sawah";
 		displayName = "[10th] M52D 'Arctic'";
 		hiddenSelectionsTextures[] = {
@@ -664,7 +664,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Sound_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Sawah";
 		displayName = "[10th] M52B 'Sound'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -759,7 +759,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Bob_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Tiny";
 		displayName = "[10th] M52D 'Bob'";
 		hiddenSelectionsTextures[] = {
@@ -783,7 +783,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Goji_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Mac";
 		displayName = "[10th] M52D 'Goji'";
 		hiddenSelectionsTextures[] = {

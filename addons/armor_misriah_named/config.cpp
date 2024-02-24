@@ -228,4 +228,13 @@ class cfgWeapons {
 
 	// Vex
 	#include "data\Vex\armor.hpp"
+//
+	// Lego
+	#include "data\Lego\armor.hpp"
+
+	// Sound
+	#include "data\Sound\armor.hpp"
+
+	// Thor
+	#include "data\Thor\armor.hpp"
 };
