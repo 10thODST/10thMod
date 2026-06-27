@@ -377,4 +377,7 @@ class cfgWeapons {
 
 	// Toaster
 	#include "data\Toaster\armor.hpp"
+
+	// Chugs
+	#include "data\Chugs\armor.hpp"
 };

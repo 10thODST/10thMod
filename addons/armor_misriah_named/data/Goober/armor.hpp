@@ -8,9 +8,9 @@
 			"z\10thMod\addons\armor_misriah_named\data\Goober\HR_ODST_Helmet_Goober_co.paa", // change this texture file to test different helmet textures.
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
@@ -28,7 +28,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Goober\Thigh_Pouch_Goober_co.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Goober\Reach_Armor_Upper_Goober_co.paa", // Upper armor texture and base ODST shoulders.
-			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Goober\Reach_Armor_Lower_Goober_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Goober\Sniper_Goober_co.paa", // Sniper Shoulders
@@ -58,7 +58,7 @@
 				"H3_Pauldron_Right", // not used
 				//"Reach_Pauldron_Left",
 				"Reach_Pauldron_Right",
-				//"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Left",
 				"Reach_Shoulder_Radio_Right",
 				"Reach_Sniper_Pauldron_Left",
 				//"Reach_Sniper_Pauldron_Right",
@@ -69,7 +69,7 @@
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				//"Canisters" // the canisters around the waist
+				"Canisters" // the canisters around the waist
 			};
 		};
 	};
