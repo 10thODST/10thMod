@@ -1,4 +1,21 @@
-
+	class Tenthed_M56SR_Helmet_Cookie : Tenthed_M56SR_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56S-R Helmet (Cookie)";
+		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
+		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
+			"z\10thMod\addons\armor_misriah_named\data\Cookie\HR_ODST_Helmet_Cookie_co.paa", // change this texture file to test different helmet textures.
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		};
+	};
 	class Tenthed_M56R_Vest_Cookie : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
@@ -9,7 +26,7 @@
 			// No other texture files then the ones with comments will be altered.
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa", // Thigh pouch texture
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Cookie\Reach_Armor_Upper_Cookie_co.paa", // Upper armor texture and base ODST shoulders.
 			"z\10thMod\addons\armor_misriah_named\data\Cookie\Reach_Armor_Lower_Cookie_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
@@ -52,27 +69,7 @@
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				"Canisters" // the canisters around the waist
+				//"Canisters" // the canisters around the waist
 			};
-		};
-	};
-
-
-	class Tenthed_M56SR_Helmet_Cookie : Tenthed_M56SR_Helmet {
-		scope=2;
-		scopeArsenal=2;
-		displayName="[10th] M56S-R Helmet (Cookie)";
-		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
-		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
-		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
-			"z\10thMod\addons\armor_misriah_named\data\Cookie\HR_ODST_Helmet_Cookie_co.paa", // change this texture file to test different helmet textures.
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
-		};
-		class ItemInfo: ItemInfo {
-			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		};
 	};
