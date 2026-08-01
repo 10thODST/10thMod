@@ -28,7 +28,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Dadbod\Thigh_Pouch_Dadbod_co.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Dadbod\Reach_Armor_Upper_Dadbod_co.paa", // Upper armor texture and base ODST shoulders.
-			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Dadbod\Reach_Armor_Lower_Dadbod_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Dadbod\Sniper_Dadbod_co.paa", // Sniper Shoulders

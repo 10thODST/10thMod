@@ -86,8 +86,7 @@ class cfgWeapons {
 	// Cookie
 	#include "data\Cookie\armor.hpp"
 
-	// Dovah
-	#include "data\Dovah\armor.hpp"
+
 
 	// Drake
 	// #include "data\Drake\armor.hpp"
@@ -380,4 +379,9 @@ class cfgWeapons {
 
 	// Chugs
 	#include "data\Chugs\armor.hpp"
+
+//
+	// DS
+	#include "data\DS\armor.hpp"
+
 };
