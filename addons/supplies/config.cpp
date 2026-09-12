@@ -397,4 +397,11 @@ class CfgVehicles {
 			};
 		};
 	};
+	class Tenthed_SupplyPod_Arsenal : Tenthed_SupplyPod_Empty {
+		displayName = "Supply Pod - 10th Arsenal";
+		class EventHandlers
+		{
+			init = "[_this select 0, true] call Tenthed_fnc_Arsenal;";
+		};
+	};
 };

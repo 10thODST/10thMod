@@ -58,17 +58,17 @@ class cfgWeapons {
 			class HitpointsProtectionInfo {
 				class Head {
 					hitpointName="HitHead";
-					armor = 30;
+					armor = 40;
 					passThrough = 0.1;
 				};
 				class Face {
 					hitpointName="HitFace";
-					armor = 30;
+					armor = 40;
 					passThrough = 0.1;
 				};
 				class Neck {
 					hitpointName="HitNeck";
-					armor = 30;
+					armor = 40;
 					passThrough = 0.1;
 				};
 			};
@@ -178,42 +178,42 @@ class cfgWeapons {
 			class HitpointsProtectionInfo {
 				class Neck {
 					hitpointName = "HitNeck";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Legs {
 					hitpointName = "HitLegs";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Arms {
 					hitpointName = "HitArms";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Hands {
 					hitpointName = "HitHands";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Chest {
 					hitpointName = "HitChest";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Diaphragm {
 					hitpointName = "HitDiaphragm";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Abdomen {
 					hitpointName = "HitAbdomen";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 				class Body {
 					hitpointName = "HitBody";
-					armor = 90;
+					armor = 120;
 					passThrough = 0.1;
 				};
 			};

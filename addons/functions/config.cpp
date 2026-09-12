@@ -79,7 +79,7 @@ class CfgFunctions {
         {
             file="z\10thMod\addons\functions\functions";
             class VehicleSpawnerGeneric {};
-            // this ["_vehicleName", _ClassName, _spawnPoint] call Tenthed_fnc_AddTeleportAction;
+            // this ["_vehicleName", _ClassName, _spawnPoint] call Tenthed_fnc_VehicleSpawnerGeneric;
         };
 
         class Tenthed_Server_Functions_Teleport

@@ -18,6 +18,9 @@ class CfgFactionClasses {
         icon = "\Tenthed_Core\data\logo.paa";
         flag = "\Tenthed_Core\data\logo.paa";
     };
+    class Tenthed_EditorCategory_Modules {
+        displayName = "[10th] Modules";
+    };
 };
 class CfgEditorCategories {
     // Primary unit category used for units
@@ -93,17 +96,17 @@ class ACEX_Fortify_Presets {
     class Tenthed_Fortify01 {
         displayName = "10th ODST - Fortify";
         objects[] = {
-            {"Land_BagFence_Round_F", 7},
-            {"Land_BagFence_Long_F", 7},
-            {"Land_BagFence_Short_F", 7},
-            {"Land_Plank_01_4m_F", 7},
+            {"Land_BagFence_Round_F", 10},
+            {"Land_BagFence_Long_F", 10},
+            {"Land_BagFence_Short_F", 10},
+            {"Land_Plank_01_4m_F", 10},
 
-            {"OPTRE_Ridgco_Barrier_One", 18},
-            {"OPTRE_Ridgco_Barrier_Tunnel", 18},
-            {"OPTRE_Ridgco_Barrier_Tower", 32},
-            {"OPTRE_Ridgco_Barrier_Corner", 18},
-            {"OPTRE_Ridgco_Barrier_Wall_Long", 18},
-            {"OPTRE_Ridgco_Barrier_Wall_Short", 18}
+            {"OPTRE_Ridgco_Barrier_One", 30},
+            {"OPTRE_Ridgco_Barrier_Tunnel", 30},
+            {"OPTRE_Ridgco_Barrier_Tower", 60},
+            {"OPTRE_Ridgco_Barrier_Corner", 30},
+            {"OPTRE_Ridgco_Barrier_Wall_Long", 30},
+            {"OPTRE_Ridgco_Barrier_Wall_Short", 30}
         };
     };
 };

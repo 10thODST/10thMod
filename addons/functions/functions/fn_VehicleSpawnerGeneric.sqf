@@ -1,25 +1,31 @@
-private["_object", "_vehicleName", "_spawnPoint", _pad1];
-_object = _this select 0; // The object to add actions to (usually "this")
-_vehicleName = _this select 1; // Name of the teleport location
-_className = _this select 1; // Name of the teleport location
-_spawnPoint = _this select 3; // Lift marker for teleport destination
+params ["_object", "_vehicleName", "_className", "_spawnPoint"];
 
-// Construct the action label dynamically using the location name
-_actionLabel = format["Spawn %1", _vehicleName];
+private _actionLabel = format ["Spawn %1", _vehicleName];
 
-// Add the action to teleport to the specified location
-_object addAction [_actionLabel, {
+_object addAction [
+    _actionLabel,
+    {
+        params ["_target", "_caller", "_actionId", "_arguments"];
 
-    if (surfaceIsWater position _spawnPoint) then {
-        _pad1 = getPosASL _spawnPoint;
-    } else {
-        _pad1 = getPosATL _spawnPoint;
-    };
-    _dir = getDir _spawnPoint;
+        _arguments params ["_className", "_spawnPoint"];
 
-    // Spawn the selected vehicle at the calculated position and direction
-    _veh = createVehicle [_className, _pad1, [], 0, "NONE"];
-    _veh setDir _dir;
+        private _pad1 = if (surfaceIsWater (getPosASL _spawnPoint)) then {
+            getPosASL _spawnPoint
+        } else {
+            getPosATL _spawnPoint
+        };
 
+        private _dir = getDir _spawnPoint;
 
-}];
+        private _veh = createVehicle [
+            _className,
+            _pad1,
+            [],
+            0,
+            "NONE"
+        ];
+
+        _veh setDir _dir;
+    },
+    [_className, _spawnPoint]
+];
