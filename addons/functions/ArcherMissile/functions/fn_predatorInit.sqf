@@ -1,1 +1,0 @@
-DrStartHeight = 1500; //Rocket start height
