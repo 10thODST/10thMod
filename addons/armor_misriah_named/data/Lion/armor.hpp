@@ -1,4 +1,4 @@
-	class Tenthed_M56SR_Helmet_ : Tenthed_M56SR_Helmet {
+	class Tenthed_M56SR_Helmet_Lion : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56S-R Helmet (Lion)";
